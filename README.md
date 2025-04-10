@@ -114,6 +114,6 @@ Pull requests are welcome! For major changes, open an issue first to discuss wha
 
 ## 👨‍💻 Developed By
 
-[Marko Sudar](https://github.com/sukibk)
-[Luca Accomando]
+[Marko Sudar](https://github.com/sukibk) | 
+[Luca Accomando](https://www.linkedin.com/in/luca-accomando-4a152b34a/)
 ```
