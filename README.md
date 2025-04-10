@@ -1,50 +1,156 @@
-# Welcome to your Expo app 👋
+You got it! Here's your full `README.md`, now including the section about your **search-based popularity algorithm**:
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+---
 
-## Get started
+```markdown
+# 🎬 Movie App Native
 
-1. Install dependencies
+A sleek cross-platform mobile app for browsing, saving, and managing your favorite movies. Built using **React Native** and powered by **Appwrite** for backend services and secure authentication.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 🚀 Features
 
-   ```bash
-    npx expo start
-   ```
+- 🔐 User authentication with Appwrite
+- 🎥 Browse trending movies via API
+- 💾 Save favorites to your Appwrite database
+- 🧠 Built-in search popularity algorithm
+- 🌙 Dark mode UI
+- ⚡ Smooth and responsive design
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🧠 Built-In Popularity Algorithm
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+This app includes a custom algorithm that **tracks how many times a movie has been searched** and uses that data to:
 
-## Get a fresh project
+- 📈 Sort movies by real user interest
+- 🔥 Dynamically adjust trending and search results
+- 🎯 Deliver smart suggestions based on actual behavior
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
+## 📱 Screenshots
+
+_Coming soon_
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React Native (Expo)
+- **Backend:** Appwrite (Auth, DB, Storage)
+- **API:** TMDb or similar movie API
+- **State Management:** Context API or Redux
+- **UI:** React Native + custom styling
+
+---
+
+## 📂 Folder Structure
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+movie-app/
+├── app/
+│ ├── hooks/
+│ ├── movies/
+│ ├── api.ts
+│ └── AuthContext.tsx
+├── assets/
+├── types/
+├── .env
+├── .gitignore
+├── package.json
+└── README.md
 
-## Learn more
+````
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## ⚙️ Getting Started
 
-## Join the community
+### 1. Clone the Repo
+```bash
+git clone https://github.com/sukibk/movie-app-native.git
+cd movie-app-native
+````
 
-Join our community of developers creating universal apps.
+### 2. Install Dependencies
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3. Set Up Environment Variables
+
+Create a `.env` file in the root directory:
+
+```env
+EXPO_PUBLIC_MOVIE_BEARER_TOKEN=your_token
+EXPO_PUBLIC_MOVIE_API_KEY=your_api_key
+EXPO_PUBLIC_APPWRITE_PROJECT_ID=your_project_id
+EXPO_PUBLIC_APPWRITE_DATABASE_ID=your_db_id
+EXPO_PUBLIC_APPWRITE_COLLECTION_ID=your_collection_id
+EXPO_PUBLIC_APPWRITE_FAVORITES_COLLECTION_ID=your_favorites_id
+```
+
+> ⚠️ Don't forget to add `.env` to your `.gitignore`.
+
+### 4. Run the App
+
+```bash
+npx expo start
+```
+
+---
+
+## 📦 Dependencies
+
+- `expo`
+- `react-native`
+- `@appwrite/sdk`
+- `dotenv`
+- `axios`
+- `react-navigation`
+- `@react-native-async-storage/async-storage`
+
+---
+
+## 💡 Future Improvements
+
+- 🔎 Full-text search with autocomplete
+- 📂 Genre filtering and advanced sorting
+- 🔔 Push notifications for new releases
+- 🧠 AI-based recommendation engine (beta)
+
+---
+
+## 🙌 Contributing
+
+Pull requests are welcome! For major changes, open an issue first to discuss what you’d like to change.
+
+---
+
+## 📄 License
+
+[MIT](LICENSE)
+
+---
+
+## 👩‍💻 Developed By
+
+[Marko Sudar](https://github.com/sukibk)
+
+```
+
+---
+
+Let me know if you want:
+- Badges (build passing, stars, etc.)
+- Auto-generated `.env.example`
+- GIFs or terminal recording previews
+- A `CONTRIBUTING.md` or changelog
+
+I got you covered!
+```
