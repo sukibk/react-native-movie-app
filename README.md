@@ -1,7 +1,3 @@
-You got it! Here's your full `README.md`, now including the section about your **search-based popularity algorithm**:
-
----
-
 ```markdown
 # 🎬 Movie App Native
 
@@ -26,7 +22,7 @@ This app includes a custom algorithm that **tracks how many times a movie has be
 
 - 📈 Sort movies by real user interest
 - 🔥 Dynamically adjust trending and search results
-- 🎯 Deliver smart suggestions based on actual behavior
+- � Deliver smart suggestions based on actual behavior
 
 ---
 
@@ -47,22 +43,21 @@ _Coming soon_
 ---
 
 ## 📂 Folder Structure
-```
 
+```
 movie-app/
 ├── app/
-│ ├── hooks/
-│ ├── movies/
-│ ├── api.ts
-│ └── AuthContext.tsx
+│   ├── hooks/
+│   ├── movies/
+│   ├── api.ts
+│   └── AuthContext.tsx
 ├── assets/
 ├── types/
 ├── .env
 ├── .gitignore
 ├── package.json
 └── README.md
-
-````
+```
 
 ---
 
@@ -72,10 +67,9 @@ movie-app/
 ```bash
 git clone https://github.com/sukibk/movie-app-native.git
 cd movie-app-native
-````
+```
 
 ### 2. Install Dependencies
-
 ```bash
 npm install
 # or
@@ -98,7 +92,6 @@ EXPO_PUBLIC_APPWRITE_FAVORITES_COLLECTION_ID=your_favorites_id
 > ⚠️ Don't forget to add `.env` to your `.gitignore`.
 
 ### 4. Run the App
-
 ```bash
 npx expo start
 ```
@@ -128,7 +121,7 @@ npx expo start
 
 ## 🙌 Contributing
 
-Pull requests are welcome! For major changes, open an issue first to discuss what you’d like to change.
+Pull requests are welcome! For major changes, open an issue first to discuss what you'd like to change.
 
 ---
 
@@ -138,19 +131,8 @@ Pull requests are welcome! For major changes, open an issue first to discuss wha
 
 ---
 
-## 👩‍💻 Developed By
+## 👨‍💻 Developed By
 
 [Marko Sudar](https://github.com/sukibk)
-
-```
-
----
-
-Let me know if you want:
-- Badges (build passing, stars, etc.)
-- Auto-generated `.env.example`
-- GIFs or terminal recording previews
-- A `CONTRIBUTING.md` or changelog
-
-I got you covered!
+[Luca Accomando]
 ```
