@@ -1,5 +1,5 @@
-```markdown
-# 🎬 Movie App Native
+
+### 🎬 Movie App Native
 
 A sleek cross-platform mobile app for browsing, saving, and managing your favorite movies. Built using **React Native** and powered by **Appwrite** for backend services and secure authentication.
 
