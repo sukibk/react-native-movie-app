@@ -79,7 +79,7 @@ npx expo start
 
 ---
 
-## 📦 Dependencies
+## 📦 Key Dependencies
 
 - `expo`
 - `react-native`
