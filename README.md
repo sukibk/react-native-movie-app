@@ -42,25 +42,6 @@ _Coming soon_
 
 ---
 
-## 📂 Folder Structure
-
-```
-movie-app/
-├── app/
-│   ├── hooks/
-│   ├── movies/
-│   ├── api.ts
-│   └── AuthContext.tsx
-├── assets/
-├── types/
-├── .env
-├── .gitignore
-├── package.json
-└── README.md
-```
-
----
-
 ## ⚙️ Getting Started
 
 ### 1. Clone the Repo
